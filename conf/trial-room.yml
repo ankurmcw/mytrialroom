@@ -3,7 +3,7 @@
 #                                                                                        #
 # Example: From <project.directory> run :                                                #
 #   $ mvn  clean package                                                                 #
-#   $ java -jar target/lib/vault-rule-engine.jar server conf/vault-rule-engine.yml       #
+#   $ java -jar target/lib/trial-room.jar server conf/trial-room.yml       #
 ##########################################################################################
 
 # The maximum time to wait for Jetty, and all Managed instances,
@@ -11,6 +11,7 @@
 
 #Server Config
 server:
+  #applicationContextPath: /application
   applicationConnectors:
     - type: http
       port: 8080
@@ -38,3 +39,6 @@ logging:
       timeZone: UTC
       target: stdout
       logFormat: '[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%-5level] %logger{36} -[%msg] %n'
+
+swagger:
+  resourcePackage: com.mytrialroom.fashion.resource

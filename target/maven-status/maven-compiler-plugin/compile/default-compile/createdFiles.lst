@@ -1,0 +1,4 @@
+com/mytrialroom/fashion/TrialRoomApp.class
+com/mytrialroom/fashion/spring/SpringContextLoaderListener.class
+com/mytrialroom/fashion/spring/SpringConfiguration.class
+com/mytrialroom/fashion/config/TrialRoomConfig.class

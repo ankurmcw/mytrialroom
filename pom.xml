@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <scm>
-        <connection>scm:git:ssh://github.com/ankurmcw/mytrialroom.gi</connection>
+        <connection>scm:git:ssh://github.com/ankurmcw/mytrialroom.git</connection>
         <tag>HEAD</tag>
     </scm>
 
